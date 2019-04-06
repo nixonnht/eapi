@@ -1,1 +1,19 @@
-This is my first text file. This is my first text file.This is my first text file.This is my first text file.This is my first text file.This is my first text file.This is my first text file.This is my first text file.This is my first text file.This is my first text file.
+This is my first text file. This is my first text file.This is my first text file.This is my first text file.This is my first text file.This is my first text file.This is my first text file.This is my first text file.This is my first text file.This is my first text file.Nixon@DESKTOP-NISQE5U MINGW64 /c/git/eapi (master)
+$ git commit -m "first commit" test.txt
+[master 75f437c] first commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+Nixon@DESKTOP-NISQE5U MINGW64 /c/git/eapi (master)
+$ git push -u origin master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 284 bytes | 142.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/nixonnht/eapi.git
+   896dd59..75f437c  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+Nixon@DESKTOP-NISQE5U MINGW64 /c/git/eapi (master)
